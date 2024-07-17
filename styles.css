@@ -1,15 +1,21 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #FFFAF0;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 100;
+    background-color: #ADD8E6;
     margin: 0;
     padding: 0;
+    
+
 }
 
+
 header {
-    background-color: #FF69B4;
-    color: white;
+    background-color: #FFFFFF;
+    width: 100%;
+    color: black;
     text-align: center;
     padding: 1em 0;
+    position: fixed;
 }
 
 header h1 {
@@ -19,19 +25,23 @@ header h1 {
 
 main {
     padding: 2em;
+    padding-top: 120px;
 }
 
 .day {
-    background-color: #FFF0F5;
-    border: 2px solid #FF69B4;
+    background-color: rgba(96, 213, 226, 0.2);
+
+    border: 4px solid #FFFFFF;
     border-radius: 10px;
     margin-bottom: 1em;
     padding: 1em;
+
+    
 }
 
 .day h2 {
     margin-top: 0;
-    color: #FF69B4;
+    color: black;
 }
 
 .day p {
